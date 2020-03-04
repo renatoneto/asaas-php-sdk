@@ -86,6 +86,11 @@ final class Payment extends \Softr\Asaas\Entity\AbstractEntity
     /**
      * @var string
      */
+    public $bankSlipUrl;
+
+    /**
+     * @var string
+     */
     public $boletoUrl;
 
     /**
